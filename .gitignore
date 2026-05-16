@@ -1,0 +1,40 @@
+# Data
+data/
+*.zip
+
+# Checkpoints
+checkpoints/
+*.pt
+*.pth
+
+# Results (except README-referenced placeholders)
+results/*.png
+results/*.json
+!results/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Environment
+.venv/
+venv/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Kaggle
+.kaggle/
